@@ -1,0 +1,206 @@
+.appHome__content {
+  background: url("/img/backapp.jpg");
+  padding: 120px 0 80px 0;
+  background-size: contain;
+  height: 700px;
+}
+
+.appHome__content .textLeft {
+  color: #fff;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.appHome__content .textSmallLeft {
+  color: #fff;
+  font-size: medium;
+}
+
+.appHome__content .buttonLeft {
+  background-color: #fb4226;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: medium;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+}
+
+.appHome__content .textAppUnder {
+  color: #fff;
+  padding-top: 10px;
+}
+
+.appHome__content .textAppUnder .tagA {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.appHome__content .right {
+  position: relative;
+  padding: 0;
+}
+
+.appHome__content .right .phone-img {
+  padding: 0 28%;
+  max-width: 100%;
+  height: auto;
+}
+
+.appHome__content .right .application__slick-slider {
+  position: absolute;
+  padding: 1.5% 29.3% 0 29.3%;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.appHome__content .right .application__draggable {
+  position: relative;
+  display: block;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.appHome__content .right .owl-stage-outer {
+  border-radius: 25px;
+}
+
+footer {
+  background-color: #222222;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .footer__content {
+  max-width: 940px;
+  margin: auto;
+}
+
+footer .footer__content .footer__rowFirst {
+  width: 100%;
+  margin: 0;
+}
+
+footer .footer__content .footer__rowFirst .col-md-4 .footer__title {
+  font-size: 11.2px;
+  color: #ffffff;
+}
+
+footer .footer__content .footer__rowFirst .footer__left .row .col-sm-6 .footer__text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #949494;
+  line-height: 2.3;
+  cursor: pointer;
+  margin: 0;
+  transition: all 0.2s;
+}
+
+footer .footer__content .footer__rowFirst .footer__left .row .col-sm-6 .footer__text:hover {
+  color: #ffffff;
+}
+
+footer .footer__content .footer__rowFirst .footer__middle .row .col-12 {
+  margin-bottom: 15px;
+}
+
+footer .footer__content .footer__rowFirst .footer__middle .row .col-12 a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+footer .footer__content .footer__rowFirst .footer__right .row .col-md-6 {
+  text-align: center;
+}
+
+footer .footer__content .footer__rowFirst .footer__right .row .col-md-6 a img {
+  height: 30px;
+  width: auto;
+  margin: 5px;
+}
+
+footer .footer__content .footer__hr {
+  margin: 20px 0;
+  border-top: 1px solid #4a4a4a;
+}
+
+footer .footer__content .footer__rowSecond {
+  width: 100%;
+  margin: 0;
+}
+
+footer .footer__content .footer__rowSecond .footer__img {
+  padding: 0;
+}
+
+footer .footer__content .footer__rowSecond .col-sm-1 .footer__logo img {
+  width: 80px;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer .footer__content .footer__rowSecond .col-sm-9 {
+  font-size: 12px;
+}
+
+footer .footer__content .footer__rowSecond .col-sm-9 h6 {
+  color: #ffffff;
+  font-size: 12px;
+  margin: 0;
+  line-height: 1.8;
+}
+
+footer .footer__content .footer__rowSecond .col-sm-9 p {
+  color: #949494;
+  margin: 0;
+  line-height: 1.8;
+}
+
+footer .footer__content .footer__rowSecond .col-sm-9 p .footer__email {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+footer .footer__content .footer__rowSecond .col-sm-2 .footer__BoCo {
+  text-align: right;
+}
+
+footer .footer__content .footer__rowSecond .col-sm-2 .footer__BoCo img {
+  width: 130px;
+}
+
+@media screen and (max-width: getBreakpoint("medium")) {
+  footer .footer__content .footer__rowFirst {
+    text-align: center;
+  }
+  footer .footer__content .footer__rowFirst .footer__title {
+    display: none !important;
+  }
+  footer .footer__content .footer__rowFirst .footer__left .footer__hideOnMobile {
+    display: none;
+  }
+  footer .footer__content .footer__rowFirst .footer__left .footer__onMobile .footer__text {
+    display: inline-block;
+    margin: 5px !important;
+  }
+  footer .footer__content .footer__rowFirst .footer__middle {
+    display: none;
+  }
+  footer .footer__content .footer__rowFirst .footer__right .footer__hideOnMobile {
+    display: none;
+  }
+  footer .footer__content .footer__rowSecond {
+    text-align: center !important;
+  }
+  footer .footer__content .footer__rowSecond .footer__BoCo {
+    text-align: center !important;
+  }
+  footer .footer__content .footer__rowSecond .footer__img {
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
